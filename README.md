@@ -1,0 +1,1 @@
+# Inspired by the blog: http://blog.aylien.com/introduction-generative-adversarial-networks-code-tensorflow/, wanted to reproduce this toy example.
