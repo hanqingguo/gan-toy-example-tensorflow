@@ -7,6 +7,10 @@ http://blog.aylien.com/introduction-generative-adversarial-networks-code-tensorf
 wanted to reproduce this toy example. 
 
 To train the model:
+    
     $ python main.py
     
+The below picture is the result after training 100000 steps, blue curve is the generator's data output G(z),
+where z is sampled from uniform distribution. The red curve is the real data distribution and it is sampled 
+from gaussian distribution with mean 3.0, standard deviation 3.0.
 ![Alt text](/pic/GAN.png?raw=true "Trained toy example")
